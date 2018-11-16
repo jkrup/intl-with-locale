@@ -29,9 +29,10 @@ console.log(format(1000.1)) // $1,000.10
 ```
 
 ## API
-`intlWithLocale` instance has 3 class methods:
+### `intlWithLocale` instance has 3 class methods:
 
-getLocale - gets the current locale value
-setLocale - changes/sets the current locale value. Returns `this` so it can be chained with NumberFormat
+*getLocale* - gets the current locale value
 
-NumberFormat - Returns a curried version of Intl.NumberFormat with the specified locale (from getLocale) https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat#Parameters
+*setLocale* - changes/sets the current locale value. Returns `this` so it can be chained with NumberFormat
+
+*NumberFormat* - Returns a curried version of Intl.NumberFormat with the specified locale (from getLocale) https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat#Parameters
