@@ -1,0 +1,28 @@
+{
+  "name": "intl-with-locale",
+  "version": "1.0.0",
+  "description": "Curried version of Intl with a set locale for use with NumberFormat.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jkrup/intl-with-locale.git"
+  },
+  "keywords": [
+    "intl",
+    "locale"
+  ],
+  "author": "Justin Krup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkrup/intl-with-locale/issues"
+  },
+  "homepage": "https://github.com/jkrup/intl-with-locale#readme",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "standard": "^12.0.1"
+  }
+}
